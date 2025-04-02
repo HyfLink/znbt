@@ -1,0 +1,18 @@
+[package]
+name = "znbt"
+description = "A more memory efficient minecraft NBT library"
+authors = ["Huang Yifan <hyf_yifan@qq.com>"]
+version = "0.1.0"
+edition = "2024"
+license = "Apache-2.0"
+repository = "https://github.com/HyfLink/znbt"
+readme = "README.md"
+keywords = ["minecraft"]
+categories = ["encoding", "parsing"]
+
+[features]
+default = []
+std = ["serde/std"]
+
+[dependencies]
+serde = { version = "1.0", default-features = false, features = ["derive"] }
