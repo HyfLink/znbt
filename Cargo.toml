@@ -1,7 +1,7 @@
 [package]
 name = "znbt"
 description = "A more memory efficient minecraft NBT library"
-authors = ["Huang Yifan <hyf_yifan@qq.com>"]
+authors = ["Huang Yifan <yifan0610@foxmail.com>"]
 version = "0.1.0"
 edition = "2024"
 license = "Apache-2.0"
